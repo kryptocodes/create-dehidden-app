@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className='py-24 text-center'>
-      <h1 className='text-2xl font-bold'>Welcome to create-web3-frontend</h1>
+      <h1 className='text-2xl font-bold'>Boilerplate</h1>
       <p className='mt-10'>Connect your wallet:</p>
       <div className='mt-5 flex justify-center gap-6'>
         {data.connectors.map((x) => (
